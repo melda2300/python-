@@ -1,16 +1,49 @@
-# This is a sample Python script.
+#  Merhaba Dünya
+print("hello wold")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print("--------------------------")
+
+# 2. Değişken Tanımlama
+yas=12
+isim = "ahmet"
+boy= 1.40
+print(f"isim: {isim}, yaş {yas}, boy {boy}")
+
+print("--------------------------")
+
+# 3. Kullanıcıdan Veri Alma
+isim1=input("Adınız nedir: ")
+print(f"merhaba , {isim1} ")
+
+print("--------------------------")
+
+# 4. Koşul İfadeleri (if-else)
+sayi=int(input("bir sayı giriniz"))
+if sayi>0:
+    print("pozitif bir sayı girdiniz")
+elif sayi==0:
+    print("sıfır girdiniz")
+else:
+    print("negatif bir sayı girdiniz")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+print("--------------------------")
 
+#5. Döngüler
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# For Döngüsü
+for i in range(7):
+    print(f"Sayı : {i}")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# While Döngüsü
+
+sayi=2
+while sayi<=5:
+    print(sayi)
+    sayi+=1
+
+# 6. Liste Kullanımı
+
+meyveler=["elma","armut","muz","portakal"]
+for meyveler in meyveler:
+    print(meyveler)
