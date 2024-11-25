@@ -1,4 +1,8 @@
+
+from  fonksiyon import Islemler
+
 #  Merhaba Dünya
+
 print("hello wold")
 
 print("--------------------------")
@@ -61,7 +65,7 @@ print("--------------------------")
 num1 = 30
 nums2 = 25
 toplama = num1 + nums2
-print(f"Toplama :{num1}+{nums2}={toplama}")
+print(f"Toplama :{num1}+{nums2}")
 
 print("--------------------------")
 
@@ -100,3 +104,13 @@ with open("deneme.txt","r") as dosya:
 
 
 print("--------------------------")
+
+# Sayılar
+sayi1 = 20
+sayi2 = 10
+
+# İşlemleri gerçekleştir ve ekrana yazdır
+print(f"Toplam: {Islemler.toplama(sayi1, sayi2)}")
+print(f"Fark: {Islemler.cikarma(sayi1, sayi2)}")
+print(f"Çarpım: {Islemler.carpma(sayi1, sayi2)}")
+print(f"Bölüm: {Islemler.bolme(sayi1, sayi2)}")
